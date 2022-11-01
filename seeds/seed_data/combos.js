@@ -148,7 +148,7 @@ module.exports = [
   {
     "id": "8871a5e1-171a-4483-a0e0-e9e8cc9a2e19",
     "combo-array": [
-      "dl",
+      "DL",
       "3",
       "2o"
     ],
@@ -170,7 +170,7 @@ module.exports = [
     "id": "6d549438-7b54-407d-9d9c-5288e41ddc43",
     "combo-array": [
       "1",
-      "sl",
+      "SL",
       "11",
       "2o"
     ],
@@ -180,11 +180,11 @@ module.exports = [
   {
     "id": "385d8f19-72aa-49b7-8fa5-bd18739d8f13",
     "combo-array": [
-      "sr",
+      "SR",
       "6",
       "5",
       "3",
-      "p",
+      "P",
       "2",
       "3"
     ],
@@ -207,7 +207,7 @@ module.exports = [
     "combo-array": [
       "4",
       "3",
-      "dl",
+      "DL",
       "3"
     ],
     "boxer": "b0cf2f47-d78a-46d3-b2bf-b6e790300ec2",
@@ -248,8 +248,8 @@ module.exports = [
   {
     "id": "6a17fc99-8e7c-4f33-9466-555e155ddde7",
     "combo-array": [
-      "c",
-      "s",
+      "BL",
+      "SR",
       "6",
       "11"
     ],
@@ -259,11 +259,11 @@ module.exports = [
   {
     "id": "4f443b2c-57a3-4da5-bf48-7596d38ec16b",
     "combo-array": [
-      "bl",
+      "BL",
       "5",
       "6",
       "11",
-      "dr",
+      "DR",
       "2",
       "3"
     ],
@@ -273,7 +273,7 @@ module.exports = [
   {
     "id": "96bc20f3-629c-463e-8c5e-577e2621ec9a",
     "combo-array": [
-      "dl",
+      "DL",
       "6",
       "5"
     ],
@@ -285,11 +285,11 @@ module.exports = [
     "combo-array": [
       "1",
       "2",
-      "sl",
+      "SL",
       "2",
       "3",
-      "sr",
-      "dl",
+      "SR",
+      "DL",
       "2",
       "3"
     ],
@@ -299,11 +299,11 @@ module.exports = [
   {
     "id": "19572058-ecdf-4b1f-b8a0-b73b8ad232e4",
     "combo-array": [
-      "bl",
+      "BL",
       "3",
       "6",
       "3",
-      "sr",
+      "SR",
       "11",
       "3",
       "2",
@@ -333,7 +333,7 @@ module.exports = [
       "1",
       "2",
       "3",
-      "sl"
+      "SL"
     ],
     "boxer": "8bd232d3-f0ef-43d7-a71a-48674ba8d787",
     "combo-name": ""
@@ -345,7 +345,7 @@ module.exports = [
       "5",
       "6",
       "11",
-      "dl",
+      "DL",
       "6",
       "11"
     ],
@@ -357,7 +357,7 @@ module.exports = [
     "combo-array": [
       "1",
       "1",
-      "sr",
+      "SR",
       "2",
       "3"
     ],
@@ -368,10 +368,10 @@ module.exports = [
     "id": "6ccd7a9f-1dd8-4323-8d29-dad5376deeb3",
     "combo-array": [
       "1",
-      "sl",
+      "SL",
       "3",
       "2",
-      "dr"
+      "DR"
     ],
     "boxer": "fd123a2e-751d-4cdb-be47-3f2445a5c22a",
     "combo-name": ""
@@ -382,9 +382,9 @@ module.exports = [
       "1",
       "2",
       "3",
-      "sl",
+      "SL",
       "3",
-      "dl",
+      "DL",
       "3"
     ],
     "boxer": "fd123a2e-751d-4cdb-be47-3f2445a5c22a",
@@ -395,7 +395,7 @@ module.exports = [
     "combo-array": [
       "2",
       "3",
-      "sl",
+      "SL",
       "11",
       "3"
     ],
@@ -408,10 +408,10 @@ module.exports = [
       "1",
       "2",
       "3",
-      "sl",
+      "SL",
       "11",
       "11",
-      "dr",
+      "DR",
       "2"
     ],
     "boxer": "fd123a2e-751d-4cdb-be47-3f2445a5c22a",
@@ -423,7 +423,7 @@ module.exports = [
       "10",
       "6",
       "3",
-      "dr",
+      "DR",
       "3",
       "2"
     ],
@@ -436,7 +436,7 @@ module.exports = [
       "1",
       "2",
       "3",
-      "sl",
+      "SL",
       "3",
       "2"
     ],
@@ -449,7 +449,7 @@ module.exports = [
       "1",
       "10",
       "3",
-      "dl",
+      "DL",
       "3"
     ],
     "boxer": "fd123a2e-751d-4cdb-be47-3f2445a5c22a",
@@ -461,11 +461,11 @@ module.exports = [
       "1",
       "2",
       "3",
-      "sl",
+      "SL",
       "11",
       "5",
       "2o",
-      "sl",
+      "SL",
       "2",
       "3"
     ],
