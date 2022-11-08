@@ -7,7 +7,7 @@ const fs = require ("node:fs")
 const action_data = require("./seed_data/actions.js")
 const boxer_data = require("./seed_data/boxers.js")
 const action_type_data = require("./seed_data/action_types.js")
-const combo_data = require("./seed_data/combos")
+const combo_data = require("./seed_data/combos.js")
 
 let sqlBoxerData = null;
 let sqlTypeData = null;
@@ -87,7 +87,7 @@ exports.seed = function(knex) {
           //little bit of trickery to find the boxer SQL id through the last name
           const boxerFound = boxer_data.find(boxer => boxer.id === item.boxer)
 
-          const boxerLastName = boxerFound ? boxerFound["last_name"] : "Kafka"
+          const boxerLastName = boxerFound ? boxerFound["last_name"] : "Caufield"
 
           const sqlBoxerFound = sqlBoxerData.find(boxer => boxer.last_name === boxerLastName)
 
