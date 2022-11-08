@@ -754,6 +754,131 @@ module.exports = [
     ],
     "boxer": "463463463634636",
     "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "1",
+      "6",
+      "5"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "P",
+      "1",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "DR",
+      "DL",
+      "1",
+      "1"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "6",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "6",
+      "4"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "SL",
+      "5",
+      "2o"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "SL",
+      "2",
+      "5",
+      "2",
+      "3",
+      "DR"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "SR",
+      "3",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "DL",
+      "2",
+      "3",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "SR",
+      "2o",
+      "3"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
   }
 
   
