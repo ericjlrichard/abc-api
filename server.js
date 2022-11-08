@@ -33,6 +33,8 @@ app.get("/actionswithtypes", req.getActionsWithTypes)
 
 app.get("/actiontypes", req.getActionTypes)
 
+app.get("/boxers/:nickname", req.getBoxerByNickname)
+
 app.listen(PORT, () => {
   console.log("Running smoothly AF on port " + PORT)
 });

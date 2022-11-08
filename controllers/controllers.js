@@ -41,6 +41,12 @@ exports.getBoxers = () => {
   return boxersArray;
 }
 
+exports.getBoxerByNickname = (nickname) => {
+  const boxersArray = mod.selectAllWithParam("boxer", "nickname", nickname)
+
+  return boxersArray;
+}
+
 exports.getActions = () => {
   const actionsArray = mod.selectAll("action");
 

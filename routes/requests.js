@@ -10,6 +10,13 @@ exports.getBoxers = async (_req, res) => {
   res.status(200).send(boxersArray)
 }
 
+exports.getBoxerByNickname = async (req, res) => {
+  const boxer = await con.getBoxerByNickname(req.params["nickname"])
+
+  //sending the first instance, if we get more than one boxer with same nickname
+  res.status(200).send(boxer[0])
+}
+
 exports.getActions = async (_req, res) => {
   const actionsArray = await con.getActions();
 
