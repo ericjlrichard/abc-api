@@ -1,10 +1,23 @@
 ![Angelo Boxing Coach](public/images/readme/abc_logo.png)
 
+# Welcome!
+
+This is the companion API to [Angelo Boxing Coach](https://github.com/ericjlrichard/eric-richard-abc): an Express API over a mySql database which contains details about featured boxers and their associated combos. Fun!
+
 # Setup
 
-
 ## mySQL
-Make sure you are running mySQL: in terminal, run "mysqld", then "mysql -u `yourusername` -p" and provide your password.
+Make sure you are running mySql ([preferably 8.0](https://dev.mysql.com/downloads/installer/)): in terminal, run "``mysqld``", then "``mysql -u <yourusername> -p``" and provide your password.
+
+By convention, the user name is often `root`, with password `rootroot`.
+
+While we're here, let's run "`CREATE DATABASE abc;`". We will use knex to connect to it, create the tables and populate it with data.
+
+If mySql is not installed on your machine, you can [download it here](https://dev.mysql.com/downloads/installer/).
+
+## knex
+
+We'll then need knex to connect to this database.
 
 Replace the information in eric-richard-abc-api/knexfile.js:
 
@@ -19,7 +32,7 @@ Replace the information in eric-richard-abc-api/knexfile.js:
   },<br>
 };
 
-Where `emptydatabasename` should be an empty database you created. You can run "`CREATE DATABASE abc;`" in mySql, for example.
+Where `emptydatabasename` should be the name empty database you created earlier ("abc" in the example).
 
 ## install node.js server dependencies
 
