@@ -874,12 +874,11 @@ module.exports = [
       "1",
       "SR",
       "2o",
-      "3"
+      "3"                           
       
     ],
     "boxer": "ttt",
     "combo-name": ""
   }
-
   
 ]
