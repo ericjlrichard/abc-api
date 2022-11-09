@@ -6,6 +6,8 @@ This is the companion API to [Angelo Boxing Coach](https://github.com/ericjlrich
 
 # Setup
 
+Since there are a few steps to setting up the API (don't worry, setting up [Angelo Boxing Coach](https://github.com/ericjlrichard/eric-richard-abc) after that is a breeze!), here are detailed setup instructions. We can do it!
+
 ## mySQL
 Make sure you are running mySql ([preferably 8.0](https://dev.mysql.com/downloads/installer/)): in terminal, run "``mysqld``", then "``mysql -u <yourusername> -p``" and provide your password.
 
