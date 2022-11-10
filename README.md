@@ -43,6 +43,12 @@ Run "npm install" to install dependencies, including:
 
 ## populate database
 
+In console terminal, in the eric-richard-abc-api folder, run "npm run initdb". If all goes well you sould see this:
+
+>![Batch 1 rolled back the following migrations: 20221024203516_abc.js Batch 1 run: 1 migrations Ran 1 seed files](public/images/readme/script.png)
+
+Failing that you can try the following instructions.
+
 In console terminal, in the eric-richard-abc-api folder, run "knex migrate:latest" to initialize database structure, you should see this:
 
 >![Batch 1 run: 1 migrations](public/images/readme/migrate_latest.png)
@@ -53,7 +59,7 @@ Then run "knex seed:run" to populate database. You should see this (I know, 1 se
 
 You can verify it worked by going in mySql, and running `use abc;` (or the name you gave to the database).
 
-Then running `SELECT first_name, last_name from boxer;`
+Then running `SELECT first_name, last_name from boxer;`, you should see a list of the boxers featured in the app.
 
 ## .env file
 
