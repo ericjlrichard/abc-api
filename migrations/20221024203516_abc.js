@@ -77,5 +77,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  return knex.schema.dropTable("settings").dropTable("user").dropTable("workout").dropTable("combo").dropTable("action_by_type").dropTable("action_type").dropTable("action").dropTable("round").dropTable("boxer")
+  return knex.schema.dropTable("settings").dropTable("user").dropTable("workout").dropTable("combo").dropTable("action_by_type").dropTable("action_type").dropTable("action").dropTable("round").dropTable("boxer").dropTable("achievement").dropTable("achievement_by_user")
 };
