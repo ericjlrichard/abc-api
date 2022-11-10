@@ -8,16 +8,9 @@ This is the companion API to [Angelo Boxing Coach](https://github.com/ericjlrich
 
 Since there are a few steps to setting up the API (don't worry, setting up [Angelo Boxing Coach](https://github.com/ericjlrichard/eric-richard-abc) after that is a breeze!), here are detailed setup instructions. We can do it!
 
-## mySQL
-Make sure you are running mySql ([preferably 8.0](https://dev.mysql.com/downloads/installer/)): in terminal, run "``mysqld``", then "``mysql -u <yourusername> -p``" and provide your password.
+## knex and mySQL
 
-By convention, the user name is often `root`, with password `rootroot`.
-
-While we're here, let's run "`CREATE DATABASE abc;`". We will use knex to connect to it, create the tables and populate it with data.
-
-If mySql is not installed on your machine, you can [download it here](https://dev.mysql.com/downloads/installer/).
-
-## knex
+You'll need to make sure mySQL is working for the server to work.
 
 We'll then need knex to connect to this database.
 
@@ -67,6 +60,10 @@ Then running `SELECT first_name, last_name from boxer;`
 Create a file called .env in "eric-richard-abc-api" with the following variables:
 
 PORT = 8080
+
+SESSION_SECRET="ImNotTellingYouWhatTheSessionSecretIs"
+
+The `SESSION_SECRET` variable can be anything, but make sure it matches `REACT_APP_SECRET_KEY` on the app side.
 
 ## Enjoy!
 
