@@ -46,16 +46,14 @@ exports.up = function(knex) {
     })
     .createTable("user", (table)=> {
       table.increments("id").primary();
-      table.string("name").notNullable();
+      table.string("email").notNullable();
       table.string("handle").notNullable();
       table.string("password").notNullable();
       
     })
     .createTable("settings", (table) => {
       table.increments("id").primary();
-      table.boolean("classic").notNullable().defaultTo(true);
-      table.boolean("random").notNullable().defaultTo(true);
-      table.boolean("signatures").notNullable().defaultTo(true);
+      table.string("boxers_included");
       table.integer("default_workout_id").unsigned().references("id").inTable("workout");
       table.boolean("southpaw").notNullable().defaultTo(false);
       table.integer("user_id").unsigned().notNullable().references("id").inTable("user").onUpdate("CASCADE").onDelete("CASCADE")
