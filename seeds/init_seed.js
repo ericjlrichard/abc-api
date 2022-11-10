@@ -115,15 +115,12 @@ exports.seed = function(knex) {
     .then(() => {
 
       let arrayInsert = []
-      console.log(sqlTypeData);
 
       action_data.forEach(action => {
         const actionFound = sqlActionData.find(sqlAction => sqlAction.code === action.code)
         action.types.forEach(type => {
           const typeFound = sqlTypeData.find(sqlType => sqlType.name === type)
-          
-
-          console.log(action.code, typeFound.id)
+        
           arrayInsert.push({action_id: actionFound.id, action_type_id: typeFound.id})
         })
       })

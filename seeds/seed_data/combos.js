@@ -471,5 +471,414 @@ module.exports = [
     ],
     "boxer": "fd123a2e-751d-4cdb-be47-3f2445a5c22a",
     "combo-name": ""
+  },
+  {
+    "id": "b3d2b8e2-f778-f23fg407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "8"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "b3d2b8e2-f778-49c4-a2f9-4wegqw2546b",
+    "combo-array": [
+      "1",
+      "2",
+      "DL"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "gh6j-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "SL",
+      "2o"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "gg3g4h-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "3",
+      "2",
+      "3"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "5y6ujg-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "3",
+      "2",
+      "5",
+      "6",
+      "5",
+      "6",
+      "DL"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "111113-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2",
+      "DR"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "2",
+      "3",
+      "DL"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-a2f9-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2",
+      "3",
+      "8",
+      "DL",
+      "2"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "1",
+      "8",
+      "8"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2",
+      "SR",
+      "2"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2",
+      "DR",
+      "10",
+      "3"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2o",
+      "11"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-456322tgt",
+    "combo-array": [
+      "SL",
+      "11",
+      "6",
+      "3"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "677-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "SL",
+      "3",
+      "DL",
+      "3",
+      "6"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-49c4-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "1",
+      "2",
+      "3",
+      "DL",
+      "3",
+      "2"
+    ],
+    "boxer": "324",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-f778-iugv-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "BL",
+      "2",
+      "3",
+      "2"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "BL",
+      "2",
+      "3",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "SR",
+      "2",
+      "3",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-4t4yt4-407b3a85546b",
+    "combo-array": [
+      "2",
+      "3",
+      "2",
+      "DR",
+      "2",
+      "3",
+      "2"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-4t4yt4-3g434g34gw",
+    "combo-array": [
+      "6",
+      "3",
+      "2",
+      "DR",
+      "2",
+      "3",
+      "2"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "SR",
+      "SL",
+      "DR",
+      "2",
+      "3",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "6",
+      "3",
+      "2",
+      "DR",
+      "2",
+      "3",
+      "2",
+      "BL",
+      "2",
+      "3",
+      "2",
+      "SR",
+      "2",
+      "3",
+      "2",
+      "SR",
+      "SL",
+      "DR",
+      "2",
+      "3",
+      "2",
+      "P",
+      "2",
+      "3",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    "boxer": "463463463634636",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "1",
+      "6",
+      "5"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "P",
+      "1",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "DR",
+      "DL",
+      "1",
+      "1"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "6",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "6",
+      "4"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "1",
+      "SL",
+      "5",
+      "2o"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "SL",
+      "2",
+      "5",
+      "2",
+      "3",
+      "DR"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "SR",
+      "3",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "DL",
+      "2",
+      "3",
+      "2"
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
+  },
+  {
+    "id": "67789-g4g4-iugv-grgrg-407b3a85546b",
+    "combo-array": [
+      "1",
+      "SR",
+      "2o",
+      "3"                           
+      
+    ],
+    "boxer": "ttt",
+    "combo-name": ""
   }
+  
 ]

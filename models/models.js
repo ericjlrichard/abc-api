@@ -48,3 +48,38 @@ exports.getActionsWithTypes = () => {
     return err;
   })
 }
+
+//returns true if an existing handle was found, false otherwise
+exports.handleExists = (handle) => {
+  return knex("user")
+  .where("handle", handle)
+  .then(data => {
+    return data.length > 0
+  })
+  .catch(err => {
+    return err;
+  })
+}
+
+exports.getUserByHandleOrEmail = (username) => {
+  return knex("user")
+  .where("handle", username)
+  .then(data => {
+    return data[0]
+  })
+  .catch(err => {
+    return err;
+  })
+}
+
+exports.addUser = (userObj) => {
+  return knex("user")
+  .insert(userObj)
+  .then(data => {
+    
+    return data
+  })
+  .catch(err => {
+    return err
+  })
+}

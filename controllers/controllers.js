@@ -1,5 +1,9 @@
 const mod = require("../models/models");
 
+const jwt = require("jsonwebtoken");
+
+const secret = process.env.SESSION_SECRET;
+
 //Since SQL doesn't permit construction of inner arrays, here's a function that does that.
 const constructActionsWithTypeArray = (actions, types) => {
   const uniqueActionsId = [];
@@ -71,4 +75,53 @@ exports.getActionTypes = async () => {
   const actionTypesArray = await mod.selectAll("action_type");
 
   return actionTypesArray
+}
+
+exports.signUpUser = async (userInfo) => {
+
+  //We will allow multiple accounts for the same email address, however handles must be unique.
+
+  const {handle, email, password} = userInfo;
+  const handleFound = await mod.handleExists(handle)
+
+  if(handleFound) {
+    return "Duplicate handle. Please choose another handle!"
+  }
+
+  const newId = await mod.addUser({
+    handle: handle,
+    email: email,
+    password: password
+  })
+
+  //returns the new user, now with a shiny new ID
+  return { id: newId[0],
+    handle: handle,
+    email: email,
+    password: password }
+}
+
+exports.loginUser = async (userInfo) => {
+  const user = await mod.getUserByHandleOrEmail(userInfo.username)
+
+  if (!user) {
+    return ("No user found with that handle or email")
+  }
+
+  if (user.password !== userInfo.password) {
+    return ("Password incorrect!")
+  }
+
+  return ({ token: jwt.sign({ handle: user.handle }, secret) });
+}
+
+exports.getProfile = async (bearerToken) => {
+  const token = bearerToken.split(" ")[1];
+
+  if(jwt.verify(token, secret)) {
+    const user = await mod.getUserByHandleOrEmail(jwt.decode(token).handle)
+    return user;
+  }
+
+  return "Error: invalid token"
 }

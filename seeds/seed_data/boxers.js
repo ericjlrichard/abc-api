@@ -7,6 +7,16 @@ module.exports = [
     "description": "Classic Kat is all about the classic boxing combos - in fact her devastating style doesn't use anything else!",
     "img": "images/kafka.webp"
   },
+
+  {
+    "id": "3409u0934u0g9u30g9u34",
+    "first_name": "Randy",
+    "last_name": "Rendell",
+    "nickname": "Random",
+    "description": "Random Randy Rendell is completely unpredictable, and has a seemingly endless list of combinations, which makes him confusing to match... However, not all of his combinations are efficient!",
+    "img": "images/rendell.png"
+  },
+  
   {
     "id": "b0cf2f47-d78a-46d3-b2bf-b6e790300ec2",
     "first_name": "Gennadiy",
@@ -42,11 +52,20 @@ module.exports = [
   },
 
   {
-    "id": "3409u0934u0g9u30g9u34",
-    "first_name": "Randy",
-    "last_name": "Rendell",
-    "nickname": "Random",
-    "description": "Random Randy Rendell is completely unpredictable, and has a seemingly endless list of combinations, which makes him confusing to match... However, not all of his combinations are efficient!",
-    "img": "images/rendell.png"
+    "id": "463463463634636",
+    "first_name": "Floyd",
+    "last_name": "Mayweather Sr",
+    "nickname": "",
+    "description": "With a solid record of his own, Mayweather Sr perhaps more notably coached his son Floyd who perfected the Philly Shell to rack up an unprecedented 50-0-0 record. As a coach, his padwork is fast, with extended and challenging combos.",
+    "img": "images/mayweathersr.png"
+  },
+
+  {
+    "id": "ttt",
+    "first_name": "Vasiliy",
+    "last_name": "Lomachenko",
+    "nickname": "The Matrix",
+    "description": "This Ukrainian southpaw gets his nickname from his exceptional command of the ring and what can be best described as his smooth style of boxing. His arsenal is diverse, but relies mostly on his speed and unpredictability.",
+    "img": "images/lomachenko.png"
   }
 ]

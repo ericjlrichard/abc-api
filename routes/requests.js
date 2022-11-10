@@ -40,3 +40,32 @@ exports.getActionTypes = async (_req, res) => {
 
   res.status(200).send(actionTypesArray)
 }
+
+exports.signUpUser = async (req, res) => {
+  const signUp = await con.signUpUser(req.body)
+
+  if((typeof signUp) === "string") {
+    res.status(400).send(signUp)
+  } else {
+    res.status(201).send(signUp)
+  }
+
+  
+}
+
+exports.loginUser = async (req, res) => {
+  const login = await con.loginUser(req.body)
+
+  if ((typeof login) === "string") {
+    res.status(403).send(login)
+  } else {
+    res.status(200).send(login)
+  }
+  
+}
+
+exports.getProfile = async (req, res) => {
+  const profile = await con.getProfile(req.headers.authorization)
+
+  res.status(200).send(profile)
+}

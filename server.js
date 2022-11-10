@@ -35,6 +35,12 @@ app.get("/actiontypes", req.getActionTypes)
 
 app.get("/boxers/:nickname", req.getBoxerByNickname)
 
+app.post("/signup", req.signUpUser)
+
+app.post("/login", req.loginUser)
+
+app.get("/profile", req.getProfile)
+
 app.listen(PORT, () => {
   console.log("Running smoothly AF on port " + PORT)
 });
