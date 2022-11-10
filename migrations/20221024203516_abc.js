@@ -49,15 +49,26 @@ exports.up = function(knex) {
       table.string("email").notNullable();
       table.string("handle").notNullable();
       table.string("password").notNullable();
+      table.integer("workout_minutes");
       
     })
     .createTable("settings", (table) => {
       table.increments("id").primary();
       table.string("boxers_included");
+      table.boolean("sounds").notNullable().defaultTo(true);
       table.integer("default_workout_id").unsigned().references("id").inTable("workout");
       table.boolean("southpaw").notNullable().defaultTo(false);
       table.integer("user_id").unsigned().notNullable().references("id").inTable("user").onUpdate("CASCADE").onDelete("CASCADE")
     })
+    .createTable("achievement", (table => {
+      table.increments("id").primary();
+      table.string("name");
+      table.string("description");
+      table.string("tiers_array");
+    }))
+    .createTable("achievement_by_user", (table => {
+      table.increments("id").primary();
+    }))
     
 };
 
@@ -66,5 +77,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  return knex.schema.dropTable("settings").dropTable("user").dropTable("workout").dropTable("combo").dropTable("action_by_type").dropTable("action_type").dropTable("action").dropTable("round").dropTable("boxer")
+  return knex.schema.dropTable("settings").dropTable("user").dropTable("workout").dropTable("combo").dropTable("action_by_type").dropTable("action_type").dropTable("action").dropTable("round").dropTable("boxer").dropTable("achievement").dropTable("achievement_by_user")
 };
