@@ -35,6 +35,10 @@ app.get("/actiontypes", req.getActionTypes)
 
 app.get("/boxers/:nickname", req.getBoxerByNickname)
 
+app.get("/achievements", req.getAchievements)
+
+
+//Auth endpoints
 app.post("/signup", req.signUpUser)
 
 app.post("/login", req.loginUser)

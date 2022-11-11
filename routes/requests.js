@@ -41,6 +41,14 @@ exports.getActionTypes = async (_req, res) => {
   res.status(200).send(actionTypesArray)
 }
 
+exports.getAchievements = async (_req, res) => {
+  const achievementsArray = await con.getAchievements();
+
+  res.status(200).send(achievementsArray)
+}
+
+//Auth
+
 exports.signUpUser = async (req, res) => {
   const signUp = await con.signUpUser(req.body)
 

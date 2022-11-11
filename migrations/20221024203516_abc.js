@@ -50,6 +50,10 @@ exports.up = function(knex) {
       table.string("handle").notNullable();
       table.string("password").notNullable();
       table.integer("workout_minutes");
+      table.integer("workouts");
+      table.integer("orthodox_workouts");
+      table.integer("southpaw_workouts");
+      table.dateTime("date_last_workout")
       
     })
     .createTable("settings", (table) => {
@@ -65,6 +69,7 @@ exports.up = function(knex) {
       table.string("name");
       table.string("description");
       table.string("tiers_array");
+      table.string("variable");
     }))
     .createTable("achievement_by_user", (table => {
       table.increments("id").primary();

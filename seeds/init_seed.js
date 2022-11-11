@@ -8,6 +8,7 @@ const action_data = require("./seed_data/actions.js")
 const boxer_data = require("./seed_data/boxers.js")
 const action_type_data = require("./seed_data/action_types.js")
 const combo_data = require("./seed_data/combos.js")
+const achievement_data = require("./seed_data/achievement.js")
 
 let sqlBoxerData = null;
 let sqlTypeData = null;
@@ -126,5 +127,13 @@ exports.seed = function(knex) {
       })
 
       return knex("action_by_type").insert(arrayInsert);
+    })
+
+    .then(() => {
+      return knex("achievement").del();
+    })
+
+    .then(() => {
+      return knex("achievement").insert(achievement_data);
     })
 };

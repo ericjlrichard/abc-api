@@ -77,6 +77,21 @@ exports.getActionTypes = async () => {
   return actionTypesArray
 }
 
+exports.getAchievements = async () => {
+  const achievementsArray = await mod.selectAll("achievement");
+
+  return achievementsArray.map(item => {
+    return {
+      id: item.id,
+      name: item.name,
+      description: item.description,
+      tiers_array: item.tiers_array.split(",")
+    }
+  });
+}
+
+//Auth
+
 exports.signUpUser = async (userInfo) => {
 
   //We will allow multiple accounts for the same email address, however handles must be unique.
